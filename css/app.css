@@ -13,7 +13,10 @@ a {
     text-decoration: none;
     color: #000;
 }
-
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 /** Header y navegacion **/
 .nombre-sitio {
@@ -26,20 +29,25 @@ a {
     color: #037bc0;
 }
 
-.nav-principal {    
+.contenedor-navegacion {
     border-top: 1px solid #e1e1e1;
-    padding-top: 20px;
+}
+
+.nav-principal {    
+    padding: 20px 0;
+    /* padding-top: 20px;
     padding-bottom: 20px;
-    margin: 100px 20px;
+    margin: 100px 20px; */
+}
+
+.hero {
+    background-image: url(../img/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+
 }
 
 /* Modulo , BEM , SMACSS */
 
-/* Box Model */
-.sobre-nosotros {
-    background-color: red;
-    width: 200px;
-    padding: 25px;
-    box-sizing: border-box;
-}
 
